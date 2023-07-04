@@ -1,14 +1,14 @@
-.one,
-.two {
+.typeOne,
+.typeTwo {
   font-size: 28px;
   font-family: Helvetica, "Times New Roman", sans-serif;
 }
 
-.one {
+.typeOne {
   color: white;
   background-color: black;
 }
 
-.two {
+.typeTwo {
   background-color: yellow;
 }
