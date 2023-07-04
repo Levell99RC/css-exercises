@@ -36,4 +36,5 @@ button {
   margin: 8px;
   text-align: center;
   padding: 8px 24px;
+  display: block;
 }
