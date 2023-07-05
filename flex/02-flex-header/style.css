@@ -27,3 +27,15 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+.left-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
