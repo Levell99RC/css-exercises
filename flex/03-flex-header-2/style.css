@@ -6,13 +6,15 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
-  display: flex;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .profile-image {
@@ -49,14 +51,22 @@ ul {
 }
 
 .left {
+  display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 16px;
   padding: 8px;
 }
 
+.links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px;
+}
+
 .right {
-  justify-content: flex-end;
+  display: flex;
   align-items: center;
   gap: 16px;
   padding: 8px;
