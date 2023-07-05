@@ -9,6 +9,9 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
@@ -22,4 +25,15 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left-links a {
+  justify-content: flex-start;
+}
+
+.right-links a {
+  justify-content: flex-end;
 }
