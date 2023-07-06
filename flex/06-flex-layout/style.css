@@ -44,16 +44,20 @@ li a {
 .header {
   flex: display;
   justify-content: space-between;
+  flex-direction: row;
   padding: 18px;
 }
 
 .left-links,
 .right-links {
+  display: flex;
+  flex-direction: row;
   gap:20px;
 }
 
 .content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 18px;
@@ -62,6 +66,7 @@ li a {
 .footer {
   flex: display;
   justify-contente: space-between;
+  flex-direction: row;
   background-color: #eeeeee;
   padding: 18px;
 }
