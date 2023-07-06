@@ -38,9 +38,10 @@ body ul {
 
 li a {
   text-decoration: none;
+  color: black;
 }
 
-header {
+.header {
   flex: display;
   justify-content: space-between;
   padding: 18px;
@@ -51,14 +52,14 @@ header {
   gap:20px;
 }
 
-content {
+.content {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 18px;
 }
 
-footer {
+.footer {
   flex: display;
   justify-contente: space-between;
   background-color: #eeeeee;
