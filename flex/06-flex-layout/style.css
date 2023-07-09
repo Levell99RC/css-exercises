@@ -30,21 +30,15 @@ input {
   margin-bottom: 16px;
 }
 
-body ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-}
-
 li a {
   text-decoration: none;
   color: black;
 }
 
-.header {
-  flex: display;
+.header,
+.footer {
+  display: flex;
   justify-content: space-between;
-  flex-direction: row;
   padding: 18px;
 }
 
@@ -53,6 +47,11 @@ li a {
   display: flex;
   flex-direction: row;
   gap:20px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  /* display: inline;
+  float: left; */
 }
 
 .content {
@@ -64,9 +63,5 @@ li a {
 }
 
 .footer {
-  flex: display;
-  justify-contente: space-between;
-  flex-direction: row;
   background-color: #eeeeee;
-  padding: 18px;
 }
